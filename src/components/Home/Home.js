@@ -19,7 +19,7 @@ const Home = () => {
           is paired with Cobalt Blue accents is designed to reflect bold musical
           expression that aims to break away from tradition.
         </p>
-        <button className="mt-5 p-3 text-white border rounded">
+        <button className="mt-5 p-3 text-white font-semibold border rounded-md hover:bg-cyan-500">
           View full details
         </button>
       </div>
