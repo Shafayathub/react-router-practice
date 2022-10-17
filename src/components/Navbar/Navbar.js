@@ -14,16 +14,16 @@ const Navbar = () => {
           open ? 'block' : 'hidden'
         }`}
       >
-        <li>
+        <li className="hover:text-white">
           <Link to="/home">Home</Link>
         </li>
-        <li>
+        <li className="hover:text-white">
           <Link to="/customer_reviews">Customer Reviews</Link>
         </li>
-        <li>
+        <li className="hover:text-white">
           <Link to="/dashboard">Dashboard</Link>
         </li>
-        <li>
+        <li className="hover:text-white">
           <Link to="/blog">Blog</Link>
         </li>
       </ul>
