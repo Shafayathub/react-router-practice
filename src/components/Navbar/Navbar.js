@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="mt-3 text-xl text-cyan-400 text-center ">
+    <div className="mt-3 text-xl text-cyan-400 text-center">
       <div onClick={() => setOpen(!open)} className="w-8 h-6  md:hidden">
         {open ? <XMarkIcon></XMarkIcon> : <Bars3Icon></Bars3Icon>}
       </div>
@@ -27,6 +27,7 @@ const Navbar = () => {
           <Link to="/blog">Blog</Link>
         </li>
       </ul>
+      <hr className="mt-2" />
     </div>
   );
 };
