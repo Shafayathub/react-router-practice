@@ -5,10 +5,10 @@ import { MoonIcon } from '@heroicons/react/24/solid';
 const Home = () => {
   const [darkToggle, setDarkToggle] = useState(false);
   return (
-    <div className={`${darkToggle ? 'bg-slate-900' : 'bg-slate-700'}`}>
+    <div className={`${darkToggle ? 'bg-slate-900' : 'bg-slate-700'} p-1`}>
       <button
         onClick={() => setDarkToggle(!darkToggle)}
-        className={`mx-3 p-2 flex ${
+        className={`mx-1 p-2 flex border rounded-xl ${
           darkToggle ? 'bg-slate-900' : 'bg-slate-700'
         }`}
       >
