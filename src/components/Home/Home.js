@@ -37,11 +37,11 @@ const Home = () => {
           />
 
           <div className="text-center md:mt-32">
-            <h1 className="text-4xl md:text-7xl font-extrabold  text-cyan-400">
+            <h1 className="text-4xl md:text-7xl font-extrabold  text-cyan-400 text-justify">
               East and west <br />
               <span className="text-white">ASUS</span> is the best
             </h1>
-            <p className="mt-5 text-xl text-white">
+            <p className="mt-5 text-xl text-white text-justify">
               ASUS VivoBook S15 is an unconventional take on daily computing,
               with an unique color-blocking design that tells the world that you
               go against the grain. Its narrow bezel design not only gives you
@@ -59,8 +59,8 @@ const Home = () => {
       </section>
       <hr />
 
-      <section className="m-3">
-        <h1 className="text-white text-4xl font-bold text-center">
+      <section className="mt-3 mb-7">
+        <h1 className="text-cyan-100 text-4xl font-bold text-center">
           User Reviews({threeReviews.length})
         </h1>
         <div className="mt-3 font-serif text-center">

@@ -18,10 +18,11 @@ const Review = ({ review }) => {
         <p className="mt-2 text-justify font-semibold text-cyan-50">
           {comments.text}
         </p>
-        <p className="flex text-cyan-100 justify-center mt-2">
+        <p className="flex text-cyan-100 justify-center items-center mt-2">
           Rating: {rating}
-          <StarIcon className="w-6 h-6 text-yellow-400"></StarIcon> out of 5
-          <StarIcon className="w-6 h-6 text-yellow-400"></StarIcon>
+          <StarIcon className="w-5 h-5 ml-1 mr-1 text-yellow-400"></StarIcon>
+          out of 5
+          <StarIcon className="w-5 h-5 ml-1 mr-1 text-yellow-400"></StarIcon>
         </p>
       </div>
     </div>

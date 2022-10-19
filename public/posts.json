@@ -6,7 +6,7 @@
     "userImage": "https://i.pinimg.com/236x/71/b0/97/71b097c13e38db341e921ba1a7e3451f.jpg",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti commodi reiciendis vitae non, eos illum fugit tempore dolor deleniti architecto porro accusantium. Vel aliquid, minus obcaecati voluptatum vero suscipit consectetur!",
     "comments": {
-      "user": "The Developer",
+      "user": "Developer",
       "text": "This is great. you are absolutely right. Don't stop!"
     }
   },
@@ -15,7 +15,7 @@
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1646548851235-0321e69f812f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
     "userImage": "https://i.pinimg.com/236x/71/b0/97/71b097c13e38db341e921ba1a7e3451f.jpg",
-    "description": "Lorem, ipsum dolor sit amet",
+    "description": "Lorem, ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit.Corrupti commodi reiciendis vitae non, eos illum fugit tempore dolor deleniti architecto porro accusantium.",
     "comments": {
       "user": "Shafayat",
       "text": "Take some ❤."
