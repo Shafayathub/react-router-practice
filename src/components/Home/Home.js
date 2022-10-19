@@ -12,7 +12,11 @@ const Home = () => {
   const [reviews] = UserReviews();
   const threeReviews = reviews.slice(0, 3);
   return (
-    <div className={`${darkToggle ? 'bg-slate-900' : 'bg-slate-700'} p-1`}>
+    <div
+      className={`${
+        darkToggle ? 'bg-slate-900' : 'bg-slate-700'
+      } p-1 font-serif`}
+    >
       <section>
         <button
           onClick={() => setDarkToggle(!darkToggle)}
@@ -71,7 +75,7 @@ const Home = () => {
           </div>
         </div>
         <div className="text-center">
-          <button className="p-3 text-white font-semibold border rounded-md hover:bg-cyan-500 mx-auto">
+          <button className="p-3 text-white font-semibold border rounded-md hover:bg-slate-800 mx-auto">
             <Link className="flex" to="/customer_reviews">
               All reviews
               <StarIcon className="ml-1 w-6 h-6 text-yellow-400"></StarIcon>
