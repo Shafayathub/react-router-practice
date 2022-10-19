@@ -8,6 +8,7 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
+  Legend,
 } from 'recharts';
 
 const MyAreaChart = () => {
@@ -27,6 +28,7 @@ const MyAreaChart = () => {
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
+        <Legend></Legend>
         <Area
           type="monotone"
           dataKey="sell"
