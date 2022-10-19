@@ -1,8 +1,8 @@
 # Live Website link
 
-This project was React Tailwind with Routing https://nahinsreviewsite.netlify.app/
+This project was React Tailwind with Routing: https://nahinsreviewsite.netlify.app/
 
-## Available Scripts
+## Technology
 
 - React.js
 - React Router v6
